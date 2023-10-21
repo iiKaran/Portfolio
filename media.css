@@ -1,0 +1,136 @@
+@media ( max-width:1500px) {
+     
+   
+    #page-cont{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+        width: auto;
+        
+    }
+    #main-part-3{
+        display: none;
+    }
+    .right-stick{
+        
+        display: none;
+        z-index: 10;
+        
+    }
+    #right-stick{
+        display: none !important ;
+    }
+    .left-stick{
+         width: 99%;
+         margin: auto;
+         position: relative;
+         top: 5%;
+         height: 90vh;
+         margin-bottom: 0px;
+        
+    }
+    #main-part-1{
+        width: 100vw;
+        height:90vh;
+    }
+    #main-part-2{
+        width: 100%;
+    }
+    .sec-btn{
+        width: 200px;
+        text-align: center;
+        margin-left: 3vw;
+        margin-bottom: 3vw;
+    }
+    .img{
+        width: 100%;
+
+    }
+    .img img{
+        width: 100%;
+        height: 450px;
+    }
+    /* home section */
+
+    h1{
+        font-size: 4vmax;
+        text-align: center;
+    }
+    .name,.mail,.quality{
+        font-size: 2vh;
+    }
+    #home h1{
+        padding: 4vmax 3px;
+        font-size: 4vmax;
+        line-height: 9vmax;
+    }
+    #home .sec-btn{
+        margin-top: 0px;
+    }
+    #home-sub-txt{
+          font-size: 2vh !important;
+          padding: 3px 6vw;
+    }
+
+
+    /* designing about section */
+    
+
+    #about{
+        margin-top: 13px ;
+    }
+    #home{
+       margin-top: 19vmax;
+       height: 70vh;
+       height: auto;
+    }
+    #home p{
+        font-size: 4max;
+        margin-bottom: 36px;
+        width: 100%;
+    }
+    .home-exp{
+        /* border:1px  solid sienna ; */
+        width: 50%;
+        margin: auto;
+        margin-top: 0px;
+    }
+
+#projects, #skills, #about, #education{
+  height: auto;
+  padding: 4vmax 6px ;
+  margin-top: 180px;
+}
+#about{
+    
+}
+ li{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    margin: auto;
+ }
+
+
+ .mid{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .half-project, .full-project{
+    width: 100%;
+ }
+ .half-project a,.full-project a{
+    width: 100vw;
+ }
+ .half-project img, .full-project img{
+   width: 100% !important;
+ }
+}
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
